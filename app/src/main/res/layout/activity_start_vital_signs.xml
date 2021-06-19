@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg4"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="64dp"
+    android:paddingTop="16dp"
+    android:paddingRight="64dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.aa.heartrategoo.StartVitalSigns">
+
+    <TextView
+        android:id="@+id/StartHow"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingTop="34dp"
+        android:text="How to use?"
+        android:textSize="35sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="156dp"
+        app:srcCompat="@mipmap/rsz_download" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.87"
+        android:fontFamily="sans-serif"
+        android:text="1. Lightly place your index finger on the rear \n    camera.\n2. Make sure the camera is fully covered. \n3. Measure in a shaded environment. \n4. Don't move your finger until the \n    measurement is complete. \n5. Finally place your finger then press start. "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.17" />
+
+    <Button
+        android:id="@+id/StartVS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Start"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>

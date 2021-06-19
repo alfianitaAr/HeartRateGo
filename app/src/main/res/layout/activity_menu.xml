@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg4"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:weightSum="1"
+    tools:context="com.example.aa.heartrategoo.Menu">
+
+
+    <TextView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="28dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/HR"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Heart Rate"
+        android:background="@color/colorPrimary"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.030"/>
+
+    <Button
+        android:id="@+id/BP"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Blood Pressure"
+        android:background="@color/colorPrimary"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.030"/>
+
+    <Button
+        android:id="@+id/VS"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="All Vital Signs"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>
